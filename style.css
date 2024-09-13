@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-container {
+  background-color: #3b4664;
+  height: 100vh;
+  align-items: center;
+}
+
+.calci {
+  width: 25rem;
+  background-color: #252d44;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+.btn-box {
+  width: 5rem;
+  height: 3rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eae3db;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+  font-family: "inter", sans-serif;
+  font-weight: 800;
+  color: #3b4664;
+  transition: all 0.3s;
+}
+
+.btn-box:hover {
+  scale: 1.1;
+}
+
+input {
+  height: 3rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  background-color: #181f32;
+  width: 25rem;
+  color: white;
+  font-family: "inter", sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  padding: 1rem 2rem;
+  letter-spacing: 0.2rem;
+  border-radius: 0.5rem;
+  text-align: right;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+}
+
+.del {
+  background-color: #647299;
+  color: #ffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.res {
+  width: 46.5%;
+  background-color: #647299;
+  color: #ffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.eq {
+  width: 46.5%;
+  background-color: #d13f30;
+  color: #ffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
